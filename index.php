@@ -187,7 +187,7 @@ $stagiaires = $stmt->fetchAll(PDO::FETCH_ASSOC); // tableau des objets (enregist
             </div>
             <div class="col d-flex justify-content-end ">
                 <div class="me-2">
-                    <a href="logOut.php"><img src="logout.png" alt="" height="40px"></a>
+                    <a href="image/logOut.php"><img src="logout.png" alt="" height="40px"></a>
                 </div>
                 <form action="">
                     <select name="selected" class="form-select" aria-label="Default select example" onchange="this.form.submit()">
